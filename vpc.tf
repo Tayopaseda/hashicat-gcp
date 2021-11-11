@@ -56,7 +56,7 @@ module "vpc" {
             destination_range      = "10.50.10.0/24"
             tags                   = "app-proxy"
             next_hop_instance      = "app-proxy-instance"
-            next_hop_instance_zone = "us-west1-a"
+            next_hop_instance_zone = "europe-west2-b"
         },
     ]
 }
